@@ -10,12 +10,12 @@ from googleapiclient.errors import HttpError
 # CONFIGURATION
 # ==========================================================
 API_KEYS = [
-    "AIzaSyDZEs3Gk3gUisKyXf0HgQ-9zS8QI2RFz-8",  # Project 1 key
-    "AIzaSyDnwuLKZvbMxqs7VrS1XEMm3jbWHiLgvko",  # Project 2 key
-    "AIzaSyAXUsBiuUoavTt9QPXJ0xkISjGo4sdYeg8",
-    "AIzaSyCzl6xMXMko_KU6R69ezSu6GWQkCyyRaPk",
-    "AIzaSyD_qeTXQpTsxcF0gNvqrsTeK_UWCyEemzE",
-    "AIzaSyCtknn9T1QP1URIQ8hOFAxYqJM-ZwxMUz0",  # Project 3 key
+    "AIza*********************************-8",  # Project 1 key
+    "AIza*********************************ko",  # Project 2 key
+    "AIza*********************************g8",
+    "AIza*********************************Pk",
+    "AIza*********************************E",
+    "AIza*********************************z0",  # Project 3 key
 ]
 
 SEARCH_QUERIES = [
@@ -158,3 +158,4 @@ for query in SEARCH_QUERIES:
 pd.DataFrame(all_data).to_csv(OUTPUT_FILE, index=False)
 print(f"\n Finished! Collected {len(all_data)} influencer channels.")
 print(f" Data saved to {OUTPUT_FILE}")
+
